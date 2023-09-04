@@ -10,6 +10,7 @@
     color: white;
     display: flex ;
     align-items: center;
+    justify-content: space-evenly;
 }
 
 
@@ -67,7 +68,62 @@
     border: none;
 }
 .search-input{
-    width: 500px;
-    background-color: red;
+    width: 100%;
+    font-size: 1rem; 
+    border:none;
+    
 }
 
+.search-icon{
+    width:45px; 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.2rem;
+    background-color: #febd68;
+    border-top-right-radius: 4px;
+    border-bottom-right-radius: 4px;
+    color: black;
+}
+
+.nav-search:hover{
+    border: 2px solid rgb(226, 149, 5);
+}
+
+span{
+    font-size: 0.7rem;
+    
+}
+
+.nav-scc{
+    font-size:0.85rem;
+    font-weight: 700;
+}
+
+.nav-cart i{
+    font-size:30px;
+}
+.nav-cart{
+    font-size: 0.9rem;
+    font-weight: 700;
+}
+
+/* Part-2 */
+.panel{
+    background-color: #232F3E;
+    color: white;
+    height: 37px;
+    display: flex ;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.options p{
+    display:inline;
+    margin-left: 10px;
+    font-weight: 500;
+}
+
+.options{
+    width: 95%;
+}
